@@ -46,3 +46,17 @@ JWebNote/
  ├── pom.xml
  └── README.md
 
+ 😤 Challenges We Ran Into
+
+Mapping desktop Java UI into a browser sandbox
+
+Handling correct relative paths for JAR loading
+
+CheerpJ async initialization (cheerpjInit)
+
+Understanding browser security for file dialogs
+
+Ensuring Maven packaging produces a runnable JAR
+
+Getting Java GUI to behave inside HTML canvas
+
