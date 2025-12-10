@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CheerpJ Notes App</title>
+  <!-- <script src="https://cjrtnc.leaningtech.com/3.0/loader.js"></script> -->
+    <script src="https://cjrtnc.leaningtech.com/4.2/loader.js"></script>
+</head>
+<body>
+<h2 style="text-align:center;">Java Notes App Running in Browser (via CheerpJ)</h2>
+<button onclick="runApp()">Run Notes App</button>
+
+<script>
+  async function runApp() {
+      await cheerpjInit();
+	  cheerpjCreateDisplay(800, 600);
+      cheerpjRunJar("/app/JWebNote.jar");
+  }
+</script>
+</body>
+</html>
